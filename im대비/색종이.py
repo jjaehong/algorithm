@@ -16,7 +16,7 @@ for _ in range(N):
         for j in range(c,c+10):
             board[i][j] = 1
 
-    # 1을 cnt하기
+    # 1을 cnt하기(2차원배열에서 1차원배열을 꺼내며..)
     ans = 0
     for lst in board:
         ans += sum(lst)
