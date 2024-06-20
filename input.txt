@@ -1,2 +1,10 @@
-4
-6
+9
+table
+chair
+table
+table
+lamp
+door
+lamp
+table
+chair
