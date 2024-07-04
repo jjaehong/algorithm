@@ -1,15 +1,15 @@
+# 
+
 import sys
 sys.stdin = open('input.txt','r')
 input = sys.stdin.readline
 
-li = [i+1 for i in range(30)]
 
-
-for _ in range(28):
-    submit = int(input())
-    li.remove(submit)
-
-
-print(min(li))
-print(max(li))
-
+T = int(input())
+for _ in range(T):
+    R,S = input().split()
+    
+    for i in S:
+        print(i*int(R), end='')
+    print()
+        
