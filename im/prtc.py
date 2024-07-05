@@ -1,4 +1,4 @@
-# 
+# 우아아앙ㅇ 
 
 import sys
 sys.stdin = open('input.txt','r')
@@ -12,4 +12,3 @@ for _ in range(T):
     for i in S:
         print(i*int(R), end='')
     print()
-        
