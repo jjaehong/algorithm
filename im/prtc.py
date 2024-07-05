@@ -1,14 +1,8 @@
-# 우아아앙ㅇ 
-
 import sys
 sys.stdin = open('input.txt','r')
 input = sys.stdin.readline
 
+x = input().split()
 
-T = int(input())
-for _ in range(T):
-    R,S = input().split()
-    
-    for i in S:
-        print(i*int(R), end='')
-    print()
+print(len(list(x)))
+
