@@ -22,6 +22,8 @@ for i in x:
         answer += 8
     elif i in 'WXYZ':
         answer += 9
+    else:
+        print('something')
     answer += 1
 
 print(answer)
