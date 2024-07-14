@@ -1,5 +1,6 @@
 # 스택 2
 # 스택에 대한 이해, sys.stdin.readline의 중요성
+# boj28278
 
 import sys
 sys.stdin = open('input.txt','r')
