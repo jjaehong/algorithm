@@ -25,7 +25,7 @@ stack = []
 if dq[0] == 1:
     dq.popleft()
 
-# q와 stack이 안비어있으면 계속함 : 비교를 계속해야해.ㄴㄴㄴㄴㅇ
+# q와 stack이 안비어있으면 계속함 : 비교를 계속해야해
 target = 1
 # N개
 while target == N:
