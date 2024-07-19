@@ -1,10 +1,18 @@
+# import sys
+# sys.stdin = open('input.txt','r')
+# input = sys.stdin.readline
+
 N = int(input())
-# N :           0,          1,          2            3        4
-# 정사각형(변) : 1,          2*2,        4*4,         8*8,     16*16, 32*32
-# 점 갯수 :     (1+1)(1+1), (2+1)(2+1), (4+1)(4+1),   9*9      17*17
-# 정사각형이 다닥다닥 붙어있을 때 점의 개수
 
-# 한 변
-# (4+1)*(4+1)
+# 갯수(s): 1, 6, 12, 18, 24  
+# N, end : 1, 7, 19, 37, 61
+# room   : 1, 2, 3,  4,  5
 
-print((2**N+1) * (2**N+1))
+
+room = 0
+end = 1
+while N > end:
+    room += 1
+    end = end + 6 * room
+
+print(room + 1) 
